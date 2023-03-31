@@ -1,0 +1,45 @@
+#Project Attributes.
+#TunerStudio by EFI Analytics, Inc
+#Last Saved on: Thu Mar 30 20:01:06 EDT 2023
+#Thu Mar 30 20:01:06 EDT 2023
+commPort=COM1
+injsettingsInjector\ Dead-Time_width=1078
+CommSettingMSCommDriver.controllerInterfaceId=FTDI - D2XX driver
+CommSettingENGRC36A21DCommDriver.FTDI\ -\ D2XX\ driverBaud\ Rate=115200
+CommSettingBaud\ Rate=115200
+CommSettingMSCommDriver.FTDI\ -\ D2XX\ driverDevice\ Serial\ \#=A10JQ8YA
+canId=0
+dashbcastDash\ Broadcasting_Y=469
+dashbcastDash\ Broadcasting_X=766
+baseEngine\ and\ Sequential\ Settings_height=488
+CommSettingMSCommDriver.FTDI\ -\ D2XX\ driverBaud\ Rate=115200
+baseEngine\ and\ Sequential\ Settings_width=589
+projectDescription=First project version
+fan_controlFan\ Control_width=388
+dashbcastDash\ Broadcasting_width=388
+generalsettings2General\ Settings_width=719
+useCommonTuneViewDir=false
+dashbcastDash\ Broadcasting_height=262
+CommSettingCom\ Port=COM1
+baudRate=115200
+ecuConfigFile=mainController.ini
+tuneFileDir=C\:\\Users\\UGAMotorSports\\Documents\\TunerStudioProjects\\23-FSAE-Tune-V1
+firmwareDescription=MS3 1.5.2 release     20211110 12\:29GMT (c) JSM/KC ********
+baseEngine\ and\ Sequential\ Settings_Y=356
+baseEngine\ and\ Sequential\ Settings_X=665
+generalsettings2General\ Settings_height=737
+selectedComDriver=Multi Interface MegaSquirt Driver
+injsettingsInjector\ Dead-Time_Y=302
+CommSettingENGRC36A21DCommDriver.FTDI\ -\ D2XX\ driverDevice\ Serial\ \#=A10JQ8YA
+injsettingsInjector\ Dead-Time_X=421
+CommSettingENGRC36A21DCommDriver.controllerInterfaceId=FTDI - D2XX driver
+useCommonDashboardDir=false
+injsettingsInjector\ Dead-Time_height=595
+projectName=23-FSAE-Tune-V1
+ecuSettings=CAN_COMMANDS|EXPANDED_CLT_TEMP_OFF|FAHRENHEIT|INTERNAL_LOG_FIELDS_OFF|LAMBDA|OUTMSG_EDITING_OFF|PORT_STATUS_OFF|
+fan_controlFan\ Control_Y=313
+fan_controlFan\ Control_X=766
+dashBoardFile=\\dashboard\\\\dashboard.dash
+fan_controlFan\ Control_height=574
+generalsettings2General\ Settings_Y=231
+generalsettings2General\ Settings_X=600

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Apr 10 19:49:21 EDT 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Mon Apr 10 16:59:35 EDT 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.5.2+release+++++20211110+12%3A29GMT+%28c%29+JSM%2FKC+********" nPages="20" signature="MS3 Format 0569.00E"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -75,13 +75,13 @@
 <constant digits="0" name="crankingRPM" units="RPM">600.0</constant>
 <constant digits="1" name="triggerOffset" units="deg">0.0</constant>
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">120.0</constant>
-<constant digits="1" name="map0" units="kPa">-30.0</constant>
-<constant digits="1" name="mapmax" units="kPa">105.4</constant>
+<constant digits="1" name="map0" units="kPa">3.5</constant>
+<constant digits="1" name="mapmax" units="kPa">416.5</constant>
 <constant digits="1" name="clt0" units="°F">0.0</constant>
 <constant digits="0" name="cltmult" units="%">100.0</constant>
 <constant digits="1" name="mat0" units="°F">0.0</constant>
 <constant digits="0" name="matmult" units="%">100.0</constant>
-<constant digits="0" name="tpsMin" units="ADC">35.0</constant>
+<constant digits="0" name="tpsMin" units="ADC">287.0</constant>
 <constant digits="0" name="tpsMax" units="ADC">896.0</constant>
 <constant digits="1" name="batt0" units="V">0.1</constant>
 <constant digits="1" name="battmax" units="V">29.7</constant>
@@ -284,7 +284,7 @@
 <constant name="spk_mode3_hirespol">"Normal"</constant>
 <constant name="spk_mode3_kick">"Off"</constant>
 <constant name="spk_mode3_wasted">"Wasted-COP startup"</constant>
-<constant name="spk_mode3">"Coil on plug"</constant>
+<constant name="spk_mode3">"Wasted COP"</constant>
 <constant name="rtbaroport">"Internal MAP Sensor"</constant>
 <constant name="ego2port">"Internal MAP Sensor"</constant>
 <constant name="mapport">"Analog In 6"</constant>
@@ -302,12 +302,12 @@
 <constant name="feature4_0ftrig">"Off"</constant>
 <constant name="feature4_0mindwl">"Off"</constant>
 <constant name="feature4_0resyncdel">"Off"</constant>
-<constant name="timing_flags">"Fixed timing"</constant>
+<constant name="timing_flags">"Use Table"</constant>
 <constant name="use_prediction">"No Prediction"</constant>
-<constant digits="1" name="crank_dwell" units="ms">2.5</constant>
+<constant digits="1" name="crank_dwell" units="ms">3.5</constant>
 <constant name="tsw_pin_f">"Digital Switched In 3"</constant>
-<constant digits="1" name="crank_timing" units="degrees">0.0</constant>
-<constant digits="1" name="fixed_timing" units="degrees">0.0</constant>
+<constant digits="1" name="crank_timing" units="degrees">11.0</constant>
+<constant digits="1" name="fixed_timing" units="degrees">20.0</constant>
 <constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
 <constant digits="1" name="tsf_kpa" units="kPa">100.0</constant>
 <constant digits="1" name="tsf_tps" units="%">80.0</constant>
@@ -1100,21 +1100,21 @@
 <page number="1" size="1024">
 <constant name="pwm_testio">"78Hz"</constant>
 <constant digits="1" name="duty_testio" units="%">25.0</constant>
-<constant digits="0" name="testop_0">98.0</constant>
-<constant name="testop_coil">"Sequence"</constant>
+<constant digits="0" name="testop_0">97.0</constant>
+<constant name="testop_coil">"One"</constant>
 <constant name="testop_fp">"Off"</constant>
 <constant name="testop_inj">"All"</constant>
 <constant name="testop_pwm">"Standard"</constant>
-<constant digits="1" name="testdwell" units="ms">2.5</constant>
-<constant digits="1" name="testint" units="ms">200.064</constant>
-<constant digits="0" name="testrpm" units="RPM">599.8080614</constant>
+<constant digits="1" name="testdwell" units="ms">3.0</constant>
+<constant digits="1" name="testint" units="ms">99.968</constant>
+<constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">11.997</constant>
 <constant digits="0" name="testinjcnt">10.0</constant>
 <constant digits="1" name="testinjPwmT" units="ms">1.040384</constant>
 <constant digits="0" name="testinjPwmPd" units="us">66.0</constant>
 <constant digits="0" name="testinjPwmP" units="%">30.0</constant>
 <constant name="testsel_inj">"InjD"</constant>
-<constant name="testsel_coil">"CoilA"</constant>
+<constant name="testsel_coil">"CoilC"</constant>
 <constant digits="0" name="dbgtooth" units="tooth">0.0</constant>
 <constant digits="0" name="iacpostest" units="steps">0.0</constant>
 <constant digits="0" name="iachometest" units="steps">250.0</constant>
@@ -6217,32 +6217,32 @@
 </page>
 <page number="15" size="1024">
 <constant cols="1" digits="0" name="qfrtfielddata" rows="256">
-         16384.0 
-         16386.0 
-         16390.0 
-         16392.0 
-         8203.0 
-         8204.0 
-         16400.0 
-         16402.0 
-         16404.0 
-         16406.0 
-         16408.0 
-         16410.0 
-         16424.0 
-         16426.0 
-         16434.0 
-         16438.0 
-         8270.0 
-         8271.0 
-         8272.0 
-         16468.0 
-         16498.0 
-         8444.0 
-         16684.0 
-         16686.0 
-         16818.0 
-         8639.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
          0.0 
@@ -6538,9 +6538,9 @@
          0.0 
          0.0 
          10.0 
-         0.0 
-         0.0 
-         0.0 
+         10.0 
+         10.0 
+         10.0 
          0.0 
          0.0 
          0.0 
@@ -6690,9 +6690,9 @@
       </constant>
 <constant cols="1" digits="0" name="portusage_b" rows="8">
          10.0 
-         0.0 
-         0.0 
-         0.0 
+         10.0 
+         10.0 
+         10.0 
          0.0 
          0.0 
          0.0 
@@ -6891,20 +6891,20 @@
       </constant>
 <constant digits="0" name="portusage_canpwm_src">0.0</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="18" units="RAW">
-         4.0 
-         54.0 
          0.0 
-         100.0 
-         11.0 
+         186.0 
+         1.0 
+         4.0 
+         15.0 
          160.0 
-         146.0 
+         18.0 
          35.0 
          172.0 
          105.0 
          204.0 
          125.0 
          192.0 
-         48.0 
+         32.0 
          164.0 
          49.0 
          22.0 

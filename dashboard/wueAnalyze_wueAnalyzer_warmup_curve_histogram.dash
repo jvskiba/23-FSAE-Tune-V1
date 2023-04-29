@@ -10,7 +10,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">366588749</GroupId>
+<GroupId type="int">1913268476</GroupId>
 <DefaultMin type="double">0.0</DefaultMin>
 <GaugeStyle type="String">Line Graph</GaugeStyle>
 <HighCritical type="double">NaN</HighCritical>
@@ -31,7 +31,7 @@
 <ValueDigits type="int">0</ValueDigits>
 <LowWarningVP type="ValueProvider">600.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">154</ShortestSize>
+<ShortestSize type="int">170</ShortestSize>
 <SmoothedValue type="double">0.0</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -85,7 +85,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">366588749</GroupId>
+<GroupId type="int">1913268476</GroupId>
 <DefaultMin type="double">0.0</DefaultMin>
 <GaugeStyle type="String">Basic Readout</GaugeStyle>
 <HighCritical type="double">NaN</HighCritical>
@@ -106,7 +106,7 @@
 <ValueDigits type="int">0</ValueDigits>
 <LowWarningVP type="ValueProvider">600.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">31</ShortestSize>
+<ShortestSize type="int">34</ShortestSize>
 <SmoothedValue type="double">0.0</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -160,7 +160,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">447820338</GroupId>
+<GroupId type="int">52718230</GroupId>
 <DefaultMin type="double">0.0</DefaultMin>
 <GaugeStyle type="String">Line Graph</GaugeStyle>
 <HighCritical type="double">NaN</HighCritical>
@@ -181,7 +181,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">20.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">154</ShortestSize>
+<ShortestSize type="int">170</ShortestSize>
 <SmoothedValue type="double">91.41860270002289</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -235,7 +235,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">447820338</GroupId>
+<GroupId type="int">52718230</GroupId>
 <DefaultMin type="double">0.0</DefaultMin>
 <GaugeStyle type="String">Basic Readout</GaugeStyle>
 <HighCritical type="double">NaN</HighCritical>
@@ -256,7 +256,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">20.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">31</ShortestSize>
+<ShortestSize type="int">34</ShortestSize>
 <SmoothedValue type="double">91.41860270002289</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -310,7 +310,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">123778577</GroupId>
+<GroupId type="int">1944636914</GroupId>
 <DefaultMin type="double">0.5</DefaultMin>
 <GaugeStyle type="String">Line Graph</GaugeStyle>
 <HighCritical type="double">1.1</HighCritical>
@@ -331,7 +331,7 @@
 <ValueDigits type="int">2</ValueDigits>
 <LowWarningVP type="ValueProvider">0.7</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">154</ShortestSize>
+<ShortestSize type="int">170</ShortestSize>
 <SmoothedValue type="double">1.325940078158923</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -385,7 +385,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">123778577</GroupId>
+<GroupId type="int">1944636914</GroupId>
 <DefaultMin type="double">0.5</DefaultMin>
 <GaugeStyle type="String">Basic Readout</GaugeStyle>
 <HighCritical type="double">1.1</HighCritical>
@@ -406,7 +406,7 @@
 <ValueDigits type="int">2</ValueDigits>
 <LowWarningVP type="ValueProvider">0.7</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">31</ShortestSize>
+<ShortestSize type="int">34</ShortestSize>
 <SmoothedValue type="double">1.325940078158923</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -460,7 +460,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">597195086</GroupId>
+<GroupId type="int">230555738</GroupId>
 <DefaultMin type="double">50.0</DefaultMin>
 <GaugeStyle type="String">Line Graph</GaugeStyle>
 <HighCritical type="double">110.0</HighCritical>
@@ -481,7 +481,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">154</ShortestSize>
+<ShortestSize type="int">170</ShortestSize>
 <SmoothedValue type="double">98.4</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -535,7 +535,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">597195086</GroupId>
+<GroupId type="int">230555738</GroupId>
 <DefaultMin type="double">50.0</DefaultMin>
 <GaugeStyle type="String">Basic Readout</GaugeStyle>
 <HighCritical type="double">110.0</HighCritical>
@@ -556,7 +556,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">31</ShortestSize>
+<ShortestSize type="int">34</ShortestSize>
 <SmoothedValue type="double">98.4</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -610,7 +610,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">1547474674</GroupId>
+<GroupId type="int">232581621</GroupId>
 <DefaultMin type="double">50.0</DefaultMin>
 <GaugeStyle type="String">Line Graph</GaugeStyle>
 <HighCritical type="double">110.0</HighCritical>
@@ -631,7 +631,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">154</ShortestSize>
+<ShortestSize type="int">170</ShortestSize>
 <SmoothedValue type="double">98.4</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
@@ -685,7 +685,7 @@
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <GoingDead type="boolean">false</GoingDead>
-<GroupId type="int">1547474674</GroupId>
+<GroupId type="int">232581621</GroupId>
 <DefaultMin type="double">50.0</DefaultMin>
 <GaugeStyle type="String">Basic Readout</GaugeStyle>
 <HighCritical type="double">110.0</HighCritical>
@@ -706,7 +706,7 @@
 <ValueDigits type="int">1</ValueDigits>
 <LowWarningVP type="ValueProvider">99.0</LowWarningVP>
 <MajorTicks type="double">-1.0</MajorTicks>
-<ShortestSize type="int">31</ShortestSize>
+<ShortestSize type="int">34</ShortestSize>
 <SmoothedValue type="double">98.4</SmoothedValue>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
